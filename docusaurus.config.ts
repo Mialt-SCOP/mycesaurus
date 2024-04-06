@@ -6,6 +6,7 @@ const config: Config = {
   title: "Mycélium traiteur",
   tagline: "Cuisine végétale et engagée à Montpellier",
   favicon: "img/favicon.ico",
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
