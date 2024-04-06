@@ -1,0 +1,155 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../static/font/BarlowSemiCondensed-ExtraLight.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-ExtraLight.woff2")
+      format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../static/font/BarlowSemiCondensed-Light.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../static/font/BarlowSemiCondensed-Regular.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../static/font/BarlowSemiCondensed-SemiBold.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../static/font/BarlowSemiCondensed-Bold.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../static/font/BarlowSemiCondensed-ExtraBold.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BarlowSemiCondensed";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../static/font/BarlowSemiCondensed-Black.ttf") format("ttf"),
+    url("../../static/font/BarlowSemiCondensed-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Linotype";
+  src: url("../../static/font/Linotype-Feltpen-Medium.ttf") format("ttf"),
+    url("../../static/font/Linotype-Feltpen-Medium.woff2") format("woff2");
+}
+
+:root {
+  --ifm-color-primary: #447950;
+  --ifm-color-primary-dark: #3d6d48;
+  --ifm-color-primary-darker: #3a6744;
+  --ifm-color-primary-darkest: #305538;
+  --ifm-color-primary-light: #4b8558;
+  --ifm-color-primary-lighter: #4e8b5c;
+  --ifm-color-primary-lightest: #589d68;
+
+  --ifm-color-secondary: #f28b25;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-footer-background-color: #f8ede4;
+  --ifm-footer-title-color: #447950;
+  --ifm-footer-link-color: #447950;
+  --ifm-font-color-base-inverse: #f8ede4;
+  --ifm-button-border-radius: 2px;
+  --ifm-container-width-xl: 900px;
+  --ifm-container-width: 900px;
+  --ifm-font-size-base: 18px;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: "BarlowSemiCondensed", sans-serif;
+  strong {
+    font-weight: 500;
+  }
+  b {
+    font-weight: 500;
+  }
+}
+
+.navbar__inner {
+  max-width: var(--ifm-container-width-xl);
+  margin: auto;
+}
+
+.navbar__brand {
+  color: #f28b25;
+  font-family: "Linotype", sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  &:hover {
+    color: #f28b25;
+  }
+  .navbar__title {
+    margin-bottom: -6px;
+  }
+}
+
+.navbar__items.navbar__items--right
+  .toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  display: none;
+}
+
+header.hero {
+  min-height: 40vh;
+  background-image: url("../../static/img/mycelium-a-domicile.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 50px;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  h1,
+  p,
+  div {
+    position: relative;
+    z-index: 1;
+  }
+}
