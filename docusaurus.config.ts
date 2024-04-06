@@ -9,7 +9,7 @@ const config: Config = {
   trailingSlash: false,
 
   // Set the production url of your site here
-  url: "https://mialt-scop.github.io/mycesaurus/",
+  url: "https://mialt-scop.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/mycesaurus/",
