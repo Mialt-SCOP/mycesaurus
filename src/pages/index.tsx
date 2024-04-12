@@ -30,8 +30,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title} : traiteur durable, 0 déchets et végétal à Montpellier`}
+      description="Un service traiteur comptabible avec les limites planétaires, pour vos événements et ateliers de cuisine végétale à Montpellier."
     >
       <HomepageHeader />
       <main>
