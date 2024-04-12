@@ -21,7 +21,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "À domicile",
-    src: require("@site/static/img/assiette-couscous.webp").default,
+    src: require("@site/static/img/img-a-domicile.webp").default,
     alt: "Assiette de couscous végétal",
     description: (
       <>
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Événements",
-    src: require("@site/static/img/assiette-couscous.webp").default,
+    src: require("@site/static/img/img-evenements.webp").default,
     alt: "Assiette de couscous végétal",
     description: (
       <>
@@ -52,7 +52,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Ateliers de cuisine",
-    src: require("@site/static/img/assiette-couscous.webp").default,
+    src: require("@site/static/img/img-ateliers.webp").default,
     alt: "Assiette de couscous végétal",
     description: (
       <>
