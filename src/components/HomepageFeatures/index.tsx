@@ -22,28 +22,26 @@ const FeatureList: FeatureItem[] = [
   {
     title: "À domicile",
     src: require("@site/static/img/img-a-domicile.webp").default,
-    alt: "Assiette de couscous végétal",
+    alt: "Une assiette de légumes",
     description: (
       <>
-        Avec <b>notre service à domicile, vivez pleinement chaque instant.</b>{" "}
+        Avec <b>notre service à domicile, vivez pleinement chaque instant.</b>
         <br />
-        Pendant tout votre séjour, ou chez vous profitez d’une expérience
-        culinaire personnalisée au confort de votre domicile. Nous nous adaptons
-        à vos contraintes et besoins.
+        Pendant tout votre séjour, nous prenons en charge vos repas pour vous permettre de vous concentrer 
+        sur des moments de connexion et de cohésion précieux pour le collectif.
       </>
     ),
   },
   {
     title: "Événements",
     src: require("@site/static/img/img-evenements.webp").default,
-    alt: "Assiette de couscous végétal",
+    alt: "Des tartelettes",
     description: (
       <>
-        Pendant vos événements,{" "}
+        Pendant vos événements,
         <b>
-          libérez-vous de la logistique des repas pour vous concentrer sur
-          l’objet de votre événement.{" "}
-        </b>{" "}
+          libérez-vous de la logisitque des repas pour vous concentrer sur l’objet de votre événement.
+        </b>
         <br />
         Nous nous adaptons à vos besoins et contraintes pour vous proposer des
         cocktails, buffets, apéritifs dinatoires pour toutes vos occasions.
@@ -53,7 +51,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Ateliers de cuisine",
     src: require("@site/static/img/img-ateliers.webp").default,
-    alt: "Assiette de couscous végétal",
+    alt: "Des makis et muffins",
     description: (
       <>
         <b>Explorez, Apprenez et Dégustez !</b>
