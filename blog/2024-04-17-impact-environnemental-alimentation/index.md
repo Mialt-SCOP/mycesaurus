@@ -39,7 +39,7 @@ L'empreinte hydrique de l'agriculture représente une part significative de la c
 ### Qu'est-ce que l'Empreinte Hydrique ?
 L'empreinte hydrique mesure la quantité totale d'eau douce utilisée pour produire les biens et les services consommés par un individu, une communauté, ou produite par une entreprise ou un pays. Dans l'agriculture, cela inclut l'eau de pluie (empreinte verte), l'eau de surface et souterraine (empreinte bleue) utilisée pour l'irrigation, ainsi que l'eau polluée résultant de l'usage d'engrais et de pesticides (empreinte grise).
 
-### Principaux Facteurs d'Augmentation
+### Principaux Facteurs d'Augmentation
 - **Irrigation Intensive :** L'agriculture irriguée représente environ 70% de l'utilisation mondiale de l'eau douce, mais son efficacité varie considérablement. L'irrigation inefficace entraîne une consommation excessive d'eau et épuise les ressources en eau douce, en particulier dans les régions arides où l'eau est déjà limitée.
 - **Production de Viande et de Produits Laitiers :** L'élevage est particulièrement gourmand en eau, principalement en raison de l'eau nécessaire à la production des cultures destinées à l'alimentation animale. Par exemple, produire 1 kg de bœuf peut nécessiter entre 15 000 et 20 000 litres d'eau, tandis que produire 1 kg de légumes nécessite généralement moins de 300 litres.
 - **Cultures à Forte Demande en Eau :** Certaines cultures, comme le riz et le coton, sont particulièrement exigeantes en eau. La gestion inappropriée de ces cultures dans des régions sujettes à la sécheresse peut aggraver le stress hydrique et affecter la disponibilité de l'eau pour d'autres usages.
