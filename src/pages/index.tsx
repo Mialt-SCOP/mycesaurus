@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title} : traiteur durable, 0 déchets et végétal à Montpellier`}
       description="Un service traiteur comptabible avec les limites planétaires, pour vos événements et ateliers de cuisine végétale à Montpellier."
     >
-      <link rel="preload" fetchPriority="high" as="image" href="/static/img/header_img.webp" type="image/webp" />
+      <link rel="preload" fetchpriority="high" as="image" href={require("../../static/img/header_img.webp").default} type="image/webp" />
       <HomepageHeader />
       <main>
         <section className="container home-section">
