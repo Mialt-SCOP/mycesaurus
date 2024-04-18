@@ -36,14 +36,14 @@ const config: Config = {
     [
       "classic",
       {
-        /*blog: {
+        blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },*/
-        blog: false,
+        },
+        //blog: false,
         theme: {
           customCss: "./src/css/custom.scss",
         },
@@ -56,6 +56,9 @@ const config: Config = {
     image: "img/mycelium-social-card.png",
     colorMode: {
       disableSwitch: true,
+    },
+    tableOfContents: {
+      maxHeadingLevel: 2,
     },
     navbar: {
       title: "Traiteur Montpellier",
