@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import PiwikPlugin from "./src/piwik.plugin";
 
 const config: Config = {
   title: "Mycélium traiteur",
@@ -30,7 +31,7 @@ const config: Config = {
     locales: ["fr-FR"],
   },
 
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: ['docusaurus-plugin-sass', PiwikPlugin],
 
   presets: [
     [
