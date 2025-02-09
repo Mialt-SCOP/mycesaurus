@@ -97,7 +97,7 @@ export default function Home(): JSX.Element {
                   <br />
                   eqCO2
                 </p>
-                <a href="/traiteur-zero-dechet-montpellier">En savoir plus</a>
+                <a href="/traiteur-vegan-montpellier">En savoir plus</a>
               </div>
 
               <div className={styles.commitment}>
