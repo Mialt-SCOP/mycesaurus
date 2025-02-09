@@ -38,10 +38,8 @@ const FeatureList: FeatureItem[] = [
     alt: "Des tartelettes",
     description: (
       <>
-        Pendant vos événements,
-        <b>
-          libérez-vous de la logisitque des repas pour vous concentrer sur l’objet de votre événement.
-        </b>
+        Pendant vos événements,&nbsp; 
+        <b> libérez-vous de la logistique des repas pour vous concentrer sur l’objet de votre événement.</b>
         <br />
         Nous nous adaptons à vos besoins et contraintes pour vous proposer des
         cocktails, buffets, apéritifs dinatoires pour toutes vos occasions.
@@ -54,7 +52,7 @@ const FeatureList: FeatureItem[] = [
     alt: "Des makis et muffins",
     description: (
       <>
-        <b>Explorez, Apprenez et Dégustez !</b>
+        <b>Explorez, Apprenez et Dégustez ! </b>
         En groupe ou en solo, découvrez, approfondissez ou perfectionnez vos
         connaissances en cuisine végétale. Nous adaptons nos propositions en
         fonction de vos envies : une technique, un type de plat, un menu

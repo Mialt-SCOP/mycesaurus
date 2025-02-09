@@ -21,3 +21,53 @@
   align-items: center;
   justify-content: center;
 }
+
+.commitments {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.commitment {
+  flex: 1 0 100px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.commitment h3 {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  flex: 0 0 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitment figure {
+  margin: 0;
+}
+
+.commitment figure img {
+  border-radius: 100%;
+  max-width: 120px;
+}
+.commitment caption {
+  line-height: 1.1em;
+  flex: 1 0 auto;
+}
+
+.commitmentResult {
+  font-size: 24px;
+  line-height: 1.1em;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
